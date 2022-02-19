@@ -15,3 +15,7 @@ Tipo de uso da propriedade Display
 .Table Cell
 
 E outras propriedades comuns ja estudas ....
+
+
+![image](https://user-images.githubusercontent.com/97040972/154801078-25df6671-5869-426d-bd03-23ebf42c4817.png)
+
