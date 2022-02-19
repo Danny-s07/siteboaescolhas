@@ -1,0 +1,399 @@
+@charset "UTF-8";
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-image: url(imagens/bbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /*se a imagem vai ou nao andar com o conteudo*/
+    background-position: center top; /*prioriza o que eu quero mostrar na tela */
+    
+}
+
+#principal
+{
+    width: 1400px;
+    height: auto;
+    margin: 0px auto;
+    
+}
+
+#topo
+{
+    width: 100%;
+    height: 100px;
+    /*background-color: aquamarine;*/
+    color: white;
+}
+
+#logo
+{
+    width: 400px;
+    height: 100px;
+    float: left;
+    line-height: 100px;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#menu
+{
+    width: 1000px;
+    height: 100px;
+    float: right;
+    line-height: 100px;
+    /*background-color: blueviolet;*/
+}
+
+#listamenu
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+
+#listamenu li /*mechendo na configuracao do li*/
+{
+    float: left;
+}
+
+a.linkmenu:link, a.linkmenu:visited
+{
+    display: block;
+    width: 200px;
+    height: 100px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+a.linkmenu:hover, a.linkmenu:active
+{
+    color: aqua;
+}
+
+/*menu das imagens*/
+#submenu
+{
+    width: 100%;
+    height: 300px;
+    /*float: right;
+    line-height: 300px;*/
+    background-color: brown;
+}
+
+#listasubmenu
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+ 
+}
+
+#listasubmenu li
+{
+    float: left;
+    
+
+}
+
+a.linksubmenu:link, a.linksubmenu:visited
+{
+    display: table-cell;
+    width: 280px;
+    height: 300px;
+   color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+   
+}
+
+a.linksubmenu:hover, a.linksubmenu:active
+{
+    color: rgb(5, 48, 48);
+   
+}
+
+
+#conteudo
+{
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    
+}
+
+#imagem
+{
+    width: 500px;
+    min-height: 400px;
+    padding: 20px;
+    float: left;
+}
+
+#textoconteudo
+{
+    width: 840px;
+    min-height: 400px;
+    float: right;
+   padding-right: 20px;
+   text-align: justify;
+   color: dimgray;
+}
+
+a.btlink:link, a.btlink:visited  /*classe dos botoes*/
+{
+    display: block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+a.btlink:hover, a.btlink:active
+{
+    box-shadow:  5px 5px 5px 5px  dimgray;
+}
+
+#destaque
+{
+    width: 1400px;
+    height: 200px;
+    background:  rgb(74, 183, 216) url(imagens/background-01.jpg) center;/*usando short hand(color-imagem-repetição- posição de imagem)*/
+    background-size: cover;
+    background-blend-mode: overlay;
+    /*blend mode mesclar camadas de cor atravez da iluminação */
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#destaque .bgamarelo
+{
+    margin-right: 550px;
+    float: right;
+}
+
+#destaque .bglaranja
+{
+    margin-left: 530px;
+    float: left;
+    
+}
+
+#subrodape
+{
+    width: 100%;
+    height: 300px;
+    background:  rgb(49, 48, 48) url(imagens/background-02.jpg) center;
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+.textorodape
+{
+    width: 23%; /*350  = 25%*/
+    height: auto;
+    float: left;
+    padding: 1%;
+}
+
+.rodape 
+{
+    width: 1400px;
+    height: 50px;
+    background-color: white;
+}
+
+#copy
+{
+    width: 700px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+}
+
+#creditos
+{
+    width: 680px;
+    height: 30px;
+     float: right;
+    text-align: right;
+    line-height: 30px;
+    padding: 10px;
+}
+
+a.desenvolvedor:link, a.desenvolvedor:visited
+{
+    text-decoration: none;
+}
+
+
+a.link:link , a.link:visited
+{
+    text-decoration: none;
+     
+}
+
+a.link:hover, a.link:active
+{
+    color: white;
+    font-weight: bold;    
+}
+
+a.desenvolvedor:hover, a.desenvolvedor:active
+{
+    color: black;
+}
+
+.psubrodape , .link
+{
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+}
+
+/*entre em contato*/
+.textform
+{
+    width: 230px; 
+    height: 50px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border: 0px;
+    padding-top: 10px;
+    resize: none;
+    color: black;
+}
+
+.formbotao /*BOTÃO ENVIAR*/
+{
+	width: 100px;
+	height: 30px;
+	background-color: rgba(231, 230, 228, 0.836);
+	border: 0;
+	border-radius: 5px;
+        
+}
+
+.formbotao:hover /*BOTÃO ENVIAR - HOVER*/
+{
+    width: 75px;
+	background-color: rgb(168, 165, 161);
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+/*icones de redes sociais*/
+#menusocial
+{
+    width: 300px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+#listasocial li
+{
+    float: left;
+    
+}
+
+#listasocial
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+ 
+}
+
+a.linksocial:link, a.linksocial:visited
+{
+    display: block;
+    width: 50px;
+    height: 50px;   
+    text-align: center;
+    list-style: none;
+    margin-left: 10px;
+}
+
+
+/*-----------------------------------------------------Usados em outras partes do site--------------------------------------------------------------*/
+/*classes de mudança de cor das letras usada em outras partes do site*/
+.textoamarelo 
+{
+    color: #F2CD34;
+    font-size: 32px;
+}
+
+.textorosa
+{
+   color:#E55A6F;
+   font-size: 32px;
+}
+.bgverde
+{
+    background-color: #55DEAA;
+    
+}
+
+.bglaranja
+{
+  background-color:  #EF7252;
+
+}
+
+.bgroxo
+{
+  background-color : #9C79BB;
+}
+
+.bgrosa
+{
+  background-color: #F36174;
+}
+
+.bgamarelo
+{
+  background-color: #F9CD36;  
+}
+
+/*classe do h1*/
+.tituloprincipal
+{
+    font-size: 22px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+/*classe do h2*/
+.titulodestaque
+{
+    font-size: 22px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+.titulodestaque1
+{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    
+}
+
+.zerandoespaco
+{
+    margin: 0px;
+    margin-top: 10px;
+}
+
