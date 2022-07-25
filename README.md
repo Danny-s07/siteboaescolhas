@@ -1,4 +1,7 @@
 # Site Boa Escolhas
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=%20CONCLUIDO&color=GREEN&style=for-the-badge"/>
+</p>
 
 Site Ficticio criado durante o curso de TI estudando html5 nas seguintes propriedades do css3:
 
